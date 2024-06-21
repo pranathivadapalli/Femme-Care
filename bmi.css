@@ -1,0 +1,140 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/women4.png');
+    background-color: #df9a9d;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+  }
+
+
+.container {
+    margin-bottom: 20px;
+}
+
+
+.container > * {
+    margin-bottom: 10px;
+}
+
+
+button {
+    background-color: transparent;
+    outline: none;
+}
+
+
+h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+.text-center{
+    color: #fff;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #E91E63; 
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+
+.btn:hover {
+    background-color: #212121;
+}
+
+
+input {
+    width: 100%;
+    padding: 5px 14px;
+    border: 2px solid #ffffff;
+    margin-bottom: 10px;
+    background-color: #212121;
+    outline: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+input:focus {
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    background-color: rgb(60, 60, 60);
+}
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    color: #000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+form p {
+    margin-bottom: 10px; 
+}
+
+
+form p:first-child {
+    margin-top: 0;
+}
+
+
+.panel {
+    margin: 20px auto;
+}
+
+
+@media (min-width: 768px) {
+    .panel {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .panel {
+        width: 30%;
+    }
+}
+
+table {
+    width: 100%;
+    max-width: 550px; 
+    margin: 0 auto;
+    border-collapse: collapse; 
+    background-color: #212121;
+    border: 5px solid #212121;
+    color: #ffffff;
+}
+
+table th,
+table td {
+    padding: 10px; 
+    text-align: center;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+table th {
+    background-color: #E91E63;
+    font-weight: bold; 
+}
+
+table tr:hover {
+    background-color: #333; 
+}

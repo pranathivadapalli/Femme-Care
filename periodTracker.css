@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/women4.png');
+    background-color: #df9a9d;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    
+    
+  }
+  .design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+  
+  }
+  
+  btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #E91E63; 
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+
+.btn:hover {
+    background-color: #212121;
+}
